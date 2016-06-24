@@ -1,0 +1,51 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	height: 100%;
+}
+body {
+	background-color: #eee;
+}
+#container {
+	margin: auto;
+    width: 420px;
+    position: relative;
+}
+h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#container div {
+    box-sizing: border-box;
+}
+.row {
+    border: 0;
+    height: 60px;
+}
+
+.cell {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+.pion {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 60px;
+    height: 60px;
+	border-radius: 100%;
+}
+#Blue {
+	background-color: blue;
+	left: 180px;
+}
+#Red {
+	background-color: red;
+	left: 180px;
+	top: 360px;
+}
